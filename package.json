@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "adm-zip": "^0.4.7",
+    "cli-progress": "^1.6.0",
     "fs": "0.0.1-security",
     "jsonfile": "^4.0.0",
     "lodash": "^4.17.4",
