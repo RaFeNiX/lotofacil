@@ -68,6 +68,25 @@ function alimentarDB() {
             try {
                 bar1.start(obj.completo.length, 0);
                 obj.completo.forEach(function(element,i){
+                    if(element.Bola1){
+                        element.arrayResult = [
+                            element.Bola1,
+                            element.Bola2,
+                            element.Bola3,
+                            element.Bola4,
+                            element.Bola5,
+                            element.Bola6,
+                            element.Bola7,
+                            element.Bola8,
+                            element.Bola9,
+                            element.Bola10,
+                            element.Bola11,
+                            element.Bola12,
+                            element.Bola13,
+                            element.Bola14,
+                            element.Bola15,
+                        ]
+                    }                    
                     bar1.update(i);
                     var resultado = new Sorteio(JSON.parse(JSON.stringify(element)))
                     resultado.save()
